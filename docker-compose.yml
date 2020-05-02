@@ -1,0 +1,16 @@
+version: "3"
+
+volumes:
+
+       juptr:
+
+services:
+
+        myjupyter:
+                image: vishu1807/jupyter_python:v1.0
+                volumes:
+                        - juptr:/home/jovyan/
+                ports:
+                        - 4545:8888
+                restart: always
+                command: bash -c "jupyter notebook"
