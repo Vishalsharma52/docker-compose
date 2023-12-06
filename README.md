@@ -19,7 +19,7 @@ steps:
 
 3- after download the docker-compose.yml file simple run this command:
 
-                           # docker-compose up -d
+                           # docker compose up -d
      
      this command automatic setup environmet for jupyter on port 4545 on your localhost
 
